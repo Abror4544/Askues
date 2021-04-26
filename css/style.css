@@ -49,7 +49,7 @@
   min-height: 10px;
   background: #ffffff;
   -webkit-box-shadow: 0px 4px 28px 0px #00000026;
-          box-shadow: 0px 4px 28px 0px #00000026;
+  box-shadow: 0px 4px 28px 0px #00000026;
   padding: 18px 0 19px 0;
 }
 
@@ -58,11 +58,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .menu_navbar .menu_btn_bars {
@@ -93,15 +93,15 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .menu_navbar .menu_ul .main_menu {
@@ -110,11 +110,11 @@
   display: flex;
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 0;
   width: 100%;
 }
@@ -144,11 +144,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: auto;
 }
 
@@ -195,6 +195,7 @@ section.one .toptext {
 section.one .toptext .aboutImg {
   width: 304px;
   height: 195px;
+  filter: drop-shadow(0px 0px 27px rgba(0, 0, 0, 0.15));
 }
 
 section.one .toptext .rightTexts {
@@ -208,6 +209,7 @@ section.one .toptext .rightText {
   font-size: 14px;
   line-height: 23px;
   color: #1C1C1C;
+  margin-bottom: 30px;
 }
 
 section.one .bottomTextBlock .bottomText {
@@ -234,8 +236,8 @@ section.two .opportRow {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 section.two .opportRow .leftBlock,
@@ -244,15 +246,15 @@ section.two .opportRow .rightBlock {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 section.two .opportRow .opportItem {
@@ -260,8 +262,8 @@ section.two .opportRow .opportItem {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 section.two .opportRow .opportItem .lineBlock {
@@ -321,14 +323,14 @@ section.three .possibBlock {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   height: 100%;
   margin-top: 13px;
 }
@@ -338,8 +340,8 @@ section.three .possibBlock .possibItem {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 31px;
 }
 
@@ -350,14 +352,14 @@ section.three .possibBlock .possibImgBlock {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 4px solid rgba(50, 117, 200, 0.97);
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 50%;
   padding: 13px;
 }
@@ -365,7 +367,7 @@ section.three .possibBlock .possibImgBlock {
 section.three .possibBlock .possibImgBlock .possibImg {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 section.three .possibBlock .possibTextBlock {
@@ -393,8 +395,8 @@ section.four .opportRow {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 section.four .opportRow .leftBlock,
@@ -403,15 +405,15 @@ section.four .opportRow .rightBlock {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 section.four .opportRow .opportItem {
@@ -419,8 +421,8 @@ section.four .opportRow .opportItem {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 section.four .opportRow .opportItem .lineBlock {
@@ -464,14 +466,14 @@ section.five .mainTitle {
 
 section.five .accountingWrapper {
   -webkit-box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.25);
   padding: 8px 6px;
 }
 
 section.five .accountingBlock {
   border: 2px solid #DBDBDB;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 58px 68px 58px 70px;
 }
 
@@ -495,8 +497,8 @@ section.six .mainTitle {
 
 section.six .exampleWrapper {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 section.six .exampleWrapper .exampleNumber {
@@ -512,7 +514,7 @@ section.six .exampleWrapper .exampleNumber {
 
 section.six .exampleWrapper .imgBlock {
   -webkit-box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.15);
   width: 100%;
   height: 215px;
   margin-bottom: 15px;
@@ -521,8 +523,8 @@ section.six .exampleWrapper .imgBlock {
 
 section.six .exampleWrapper .imgBlock:hover .img {
   -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 section.six .exampleWrapper .imgBlock .img {
@@ -556,8 +558,8 @@ section.form .mainTitle {
 
 section.form .formBlock {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 section.form .successMsg {
@@ -603,8 +605,8 @@ section.form .formItems .btnBlock {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 section.form .formItems .sendBtn {
@@ -675,8 +677,8 @@ footer .footerMain .footerInfo {
   display: flex;
   margin-bottom: 20px;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 footer .footerMain .footerInfo .footerInfoText {
@@ -694,8 +696,8 @@ footer .footerest {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 23px 0 27px 0;
 }
 
@@ -708,11 +710,212 @@ footer .footerest .footerestText {
   color: #1F1F1F;
 }
 
+
+section.advantage {
+  padding: 64px 0 74px 0;
+}
+
+section.advantage .advantWrapper {
+  margin-top: 45px;
+  -webkit-box-shadow: 0px 2.8115px 18.9776px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2.8115px 18.9776px rgba(0, 0, 0, 0.25);
+}
+
+section.advantage .bordered {
+  border-right: 1.40575px solid #DBDBDB;
+}
+
+section.advantage .advantageBlock:hover .advantageText {
+  color: #1875D2;
+}
+
+section.advantage .advantageItem {
+  padding: 22px 0 24px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+section.advantage .advantageItem .advantageText {
+  margin-left: 9px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #1F396A;
+}
+
+
+section.economy {
+  padding-bottom: 70px;
+}
+
+section.economy .economyWrapperOne,
+section.economy .economyWrapperTwo {
+  padding: 8px 6px;
+  -webkit-box-shadow: 0px 2.80971px 18.9655px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2.80971px 18.9655px rgba(0, 0, 0, 0.25);
+  height: 261px;
+}
+
+section.economy .economyWrapperOne {
+  margin-top: 35px;
+}
+
+section.economy .economyWrapperTwo {
+  margin-top: 20px;
+}
+
+section.economy .economyBlock {
+  border: 1.40485px solid #DBDBDB;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+}
+
+section.economy .economyBlock .row {
+  height: 100%;
+}
+
+section.economy .textBlock {
+  padding: 35px 80px 53px 37px;
+  height: 100%;
+}
+
+section.economy .textBlock .economyItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 13px;
+}
+
+section.economy .textBlock .economyItem .economyTextBlock {
+  margin-left: 13px;
+  width: 406px;
+}
+
+section.economy .textBlock .economyItem .economyTextBlock .economyText {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+
+section.economy .textBlock .economyItem svg {
+  margin-top: 4px;
+}
+
+section.economy .imgBlock {
+  overflow: hidden;
+  height: 100%;
+}
+
+section.economy .imgBlock .economyImg {
+  width: 100%;
+}
+
+
+section.contacts {
+  padding: 100px 0;
+}
+
+section.contacts .mainTitle {
+  text-align: left;
+  margin-top: 55px;
+}
+
+section.contacts .contactsAddress,
+section.contacts .connectBlock {
+  width: 375px;
+}
+
+section.contacts .contactsAddress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: 35px 0;
+}
+
+section.contacts .addressText {
+  margin-left: 17px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+  color: #1C1C1C;
+}
+
+section.contacts .addressText .contactsInfo {
+  font-weight: normal;
+}
+
+section.contacts .connectBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+section.contacts .connectBlock .mailBlock,
+section.contacts .connectBlock .phoneBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+section.contacts .connectBlock .mailBlock {
+  margin-bottom: 35px;
+}
+
+section.contacts .mapBlock {
+  -webkit-box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.25);
+  padding: 0;
+}
+
+section.contacts .mapBlock .map {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 991px){s  
+  section.contacts .contactsAddress,
+  section.contacts .connectBlock {
+    width: 100%;
+  }
+
+  section.contacts .mapBlock {
+    margin-top: 40px;
+  }
+}
+
+
+
+
+
 @media screen and (min-width: 768) {
   .menu_navbar .menu_ul {
     -webkit-transform: translateY(0%);
-        -ms-transform: translateY(0%);
-            transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
   }
 }
 
@@ -729,8 +932,8 @@ footer .footerest .footerestText {
     -o-transition: .5s;
     transition: .5s;
     -webkit-transform: translateY(-100%);
-        -ms-transform: translateY(-100%);
-            transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
     z-index: -1;
     width: 100%;
     background: #F4F4F4;
@@ -740,8 +943,8 @@ footer .footerest .footerestText {
   .menu_navbar .menu_ul .main_menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .menu_navbar .menu_ul .main_menu .menu_li .menuLink {
@@ -766,8 +969,8 @@ footer .footerest .footerestText {
   section.one .toptext {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   section.one .toptext .aboutImg {
@@ -787,8 +990,8 @@ footer .footerest .footerestText {
   section.two .opportRow {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   section.two .opportRow .centerBlock {
@@ -798,8 +1001,8 @@ footer .footerest .footerestText {
   section.two .opportRow .opportItem {
     margin-top: 30px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   section.two .opportRow .opportItem .lineBlock {
@@ -813,8 +1016,8 @@ footer .footerest .footerestText {
   section.four .opportRow {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   section.four .opportRow .centerBlock {
@@ -824,8 +1027,8 @@ footer .footerest .footerestText {
   section.four .opportRow .opportItem {
     margin-top: 30px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   section.four .opportRow .opportItem .lineBlock {
@@ -855,12 +1058,35 @@ footer .footerest .footerestText {
 
   section.form .formItems .btnBlock {
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
 
   footer .footerMain .footerPart {
     margin-bottom: 25px;
+  }
+
+  section.economy .economyWrapperOne,
+  section.economy .economyWrapperTwo {
+    height: 100%;
+  }
+
+  section.economy .textBlock {
+    padding: 20px 20px 20px 30px;
+  }
+
+  section.economy .textBlock .economyItem {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  section.economy .textBlock .economyItem .economyTextBlock {
+    width: 100%;
+  }
+
+  section.economy .imgBlock {
+    display: none;
   }
 }
 
@@ -881,8 +1107,8 @@ footer .footerest .footerestText {
   .menu_navbar .headerPhoneBlock {
     width: 150px;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
 
   .menu_navbar .headerPhoneBlock .phoneIcon {
@@ -910,13 +1136,20 @@ footer .footerest .footerestText {
   footer .footerest {
     padding: 18px 0 16px 0;
   }
+  section.advantage .bordered {
+    border-right: none;
+    border-bottom: 1.40575px solid #DBDBDB;
+  }
+  section.contacts {
+    padding: 60px 0;
+  }
 }
 
 @media screen and (max-width: 575px) {
   section.form .formItems .btnBlock {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
@@ -926,6 +1159,15 @@ footer .footerest .footerestText {
   }
 }
 
+
+@media screen and (max-width: 400px) {
+  section.contacts .connectBlock {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
 
 @media screen and (max-width: 353px) {
   section.six .exampleWrapper .imgBlock .img {
